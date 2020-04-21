@@ -20,5 +20,3 @@ jobs:
       - run: yarn
       - run: yarn lint
       - run: JOBS=1 yarn test
-        env:
-          NODE_OPTIONS: '--max_old_space_size=8192'
